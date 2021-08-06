@@ -3,8 +3,8 @@ const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
 const app = express();
 const port = 5000;
-// const dbURL = "mongodb://127.0.0.1:27017";
-const dbURL = "mongodb+srv://StudentMentor:StudentMentor@cluster0.mxsef.mongodb.net/StudentMentor?retryWrites=true&w=majority"
+const dbURL = "mongodb://127.0.0.1:27017";
+//const dbURL = "mongodb+srv://StudentMentor:StudentMentor@cluster0.mxsef.mongodb.net/StudentMentor?retryWrites=true&w=majority"
 
 
 app.use(express.json());
